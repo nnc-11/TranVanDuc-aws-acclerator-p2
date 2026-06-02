@@ -1,0 +1,45 @@
+# Terraform local cache and state
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform crash, logs, and plans
+**/crash.log
+**/crash.*.log
+**/terraform.log
+**/*.tfplan
+**/plan.out
+
+# Terraform variables and override files that may contain secrets
+**/*.tfvars
+**/*.tfvars.json
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# AWS credentials and local secrets
+**/.aws/
+**/credentials
+**/config
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/.env
+**/.env.*
+
+# Local tool caches
+**/.terraform.d/
+**/.terragrunt-cache/
+**/.infracost/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+**/.vscode/
+**/.idea/
+
+# Keep public learning artifacts such as Markdown notes, Terraform source,
+# sanitized screenshots, and provider lock files.
+!**/.terraform.lock.hcl
