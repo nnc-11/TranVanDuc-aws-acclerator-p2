@@ -27,13 +27,12 @@
 | 2    | Read `knowledge/02-terraform-architecture.md`       |
 | 3    | Read `knowledge/03-terraform-workflow.md`           |
 | 4    | Read `knowledge/04-hcl-syntax.md`                   |
-| 5    | Complete `lab/requirements.md`                      |
-| 6    | Follow `lab/implementation-guide.md`                |
-| 7    | Verify with `lab/validation-checklist.md`           |
-| 8    | Troubleshoot using `lab/troubleshooting.md`         |
+| 5    | Complete `lab/001_requirements.md`                  |
+| 6    | Build Terraform code in `lab/002_code/`             |
+| 7    | Record evidence in `lab/003_evidence.md`            |
+| 8    | Troubleshoot using `lab/004_troubleshooting.md`     |
 | 9    | Complete `assessment/quiz.md`                       |
 | 10   | Review `assessment/answers.md`                      |
-| 11   | Record notes in `notes/lessons-learned-template.md` |
 
 ## Expected Outcome
 

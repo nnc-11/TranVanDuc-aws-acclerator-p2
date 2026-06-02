@@ -76,8 +76,6 @@ Lưu evidence đủ để chứng minh lab đã hoàn thành:
 * Terraform State có quản lý các resource của lab.
 * Terraform destroy thành công sau khi hoàn thành.
 
-Không lưu AWS credentials, secret keys, Terraform state files, account ID, ARN, public IP hoặc thông tin cá nhân trong evidence.
-
 **Note:**
 - Variables là các giá trị đầu vào giúp cấu hình Terraform linh hoạt và tái sử dụng được.
 - Outputs là các giá trị đầu ra được Terraform hiển thị sau khi tạo hoặc cập nhật resource.
