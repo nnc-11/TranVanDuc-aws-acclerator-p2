@@ -1,0 +1,21 @@
+
+T3: 
+Self-study K8s — 
+đọc trước lấy kiến thức nền về Container/Orchestration (Pod, Service, probes, ConfigMap/Secret, NetworkPolicy). 
+Cài sẵn Docker Desktop + minikube + kubectl trên laptop.
+
+REVIEW:
+1) - README.md: tự update file sau khi hoàn thành hết.
+2) install tools (dealine trước T5)
+3) knowledge: OK: đã commit
+5) assessment
+TASK_STATUS.txt: session, conetext AI agent
+
+
+
+
+T5:
+Onsite Đà Nẵng với mentor Nghĩa — dạy K8s Container/Orchestration + scaling/networking/deploy trên minikube + bắt đầu Lab "Mini K8s platform trên minikube"
+
+T6:
+Onsite — hoàn thiện Lab (minikube local) → show-and-tell pod 5 người 13h30–15h → 15h–16h: Online Test 2 (60p, scope K8s + Lab)

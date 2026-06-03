@@ -1,0 +1,28 @@
+# Local tool binaries
+install_tools/bin/
+
+# Local minikube state, certs, keys, images, and logs
+install_tools/.minikube/
+.minikube/
+
+# Local Kubernetes config/state
+.kube/
+kubeconfig
+*.kubeconfig
+
+# Local Codex/runtime metadata
+.agents/
+.codex/
+install_tools/.agents/
+install_tools/.codex/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
