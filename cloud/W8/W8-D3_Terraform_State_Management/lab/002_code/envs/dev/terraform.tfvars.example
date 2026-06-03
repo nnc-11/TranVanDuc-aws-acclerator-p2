@@ -1,0 +1,2 @@
+# Naming format: <username>-<project>-<purpose>-<env>-<region>
+bucket_name = "your-name-w8-d3-app-dev-ap-southeast-1"

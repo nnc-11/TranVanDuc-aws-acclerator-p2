@@ -1,0 +1,5 @@
+bucket         = "your-name-w8-d3-tfstate-dev-ap-southeast-1"
+key            = "w8/d3/dev/terraform.tfstate"
+region         = "ap-southeast-1"
+dynamodb_table = "terraform-state-locks-dev"
+encrypt        = true
