@@ -1,0 +1,39 @@
+# Terraform local cache and state
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform crash, logs, and plans
+**/crash.log
+**/crash.*.log
+**/terraform.log
+**/*.tfplan
+**/plan.out
+
+# Local variables and override files
+**/*.tfvars
+**/*.tfvars.json
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# AWS credentials and local secrets
+**/.aws/
+**/credentials
+**/config
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/.env
+**/.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+**/.vscode/
+**/.idea/
+
+# Keep provider lock file for reproducible Terraform installs.
+!**/.terraform.lock.hcl
