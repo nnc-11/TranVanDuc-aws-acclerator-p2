@@ -113,32 +113,6 @@ Kết quả mong đợi:
 Hello from Kubernetes
 ```
 
-Kiểm tra evidence Kubernetes từ EC2 console output:
-
-```bash
-INSTANCE_ID=$(terraform output -raw minikube_instance_id)
-
-aws ec2 get-console-output \
-  --region ap-southeast-1 \
-  --instance-id "$INSTANCE_ID" \
-  --latest \
-  --output text \
-| sed -n '/Kubernetes resources:/,/Bootstrap completed/p' \
-| sed 's/^\[[^]]*\] cloud-init\[[0-9]*\]: //' \
-| grep -E 'pod/hello-app|service/hello-app|deployment.apps/hello-app|Bootstrap completed'
-```
-
-## Bằng chứng hoạt động
-
-File `evidence.md` ghi lại:
-
-- ALB URL.
-- Output `curl` trả về `Hello from Kubernetes`.
-- Target Group healthy.
-- Pod `hello-app` Running trong Kubernetes.
-- Service `hello-app` type `NodePort` port `30080`.
-- Deployment `hello-app` available `2/2`.
-
 ## Cleanup
 
 Destroy toàn bộ tài nguyên:
@@ -147,5 +121,3 @@ Destroy toàn bộ tài nguyên:
 cd terraform
 terraform destroy
 ```
-
-Sau khi destroy, kiểm tra trên AWS Console để đảm bảo EC2, ALB, Target Group, VPC và Security Groups của lab đã bị xóa.
