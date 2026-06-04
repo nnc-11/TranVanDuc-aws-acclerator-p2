@@ -1,0 +1,37 @@
+# Terraform working directories
+**/.terraform/
+
+# Terraform state and lock runtime files
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/.terraform.tfstate.lock.info
+
+# Terraform plans and logs
+**/tfplan
+**/*.tfplan
+**/plan.out
+crash.log
+crash.*.log
+*.log
+
+# Terraform local variable files, may contain secrets or account-specific values
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Sensitive generated files
+*.pem
+*.key
+*.pub
+*.ppk
+*.kubeconfig
+kubeconfig*
+
+# Local/editor/OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
