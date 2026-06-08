@@ -1,0 +1,16 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+*.pem
+private/
+docs/picture/RDS_private.png
+docs/picture/S3&State_backend.png
+docs/picture/terraform_output.png
+docs/picture/web-EC2.png
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json

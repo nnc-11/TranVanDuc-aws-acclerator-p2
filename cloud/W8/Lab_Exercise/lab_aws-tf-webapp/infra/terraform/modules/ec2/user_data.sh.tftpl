@@ -1,0 +1,16 @@
+#!/bin/bash
+set -eux
+
+dnf update -y
+dnf install -y nginx mariadb105
+systemctl enable --now nginx
+
+cat > /usr/share/nginx/html/index.html <<'EOF'
+${web_html}
+EOF
+
+cat > /usr/share/nginx/html/infra.txt <<'EOF'
+S3 static bucket: ${static_bucket}
+EOF
+
+systemctl restart nginx

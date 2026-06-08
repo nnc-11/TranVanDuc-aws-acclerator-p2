@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Terraform AWS Web App</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f7fb;
+        color: #1f2937;
+      }
+      main {
+        max-width: 760px;
+        margin: 72px auto;
+        padding: 32px;
+        background: #ffffff;
+        border: 1px solid #d8dee9;
+        border-radius: 8px;
+      }
+      h1 {
+        margin-top: 0;
+        color: #0f172a;
+      }
+      code {
+        background: #eef2f7;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Terraform AWS Web App</h1>
+      <p>This demo page is served from an EC2 web server.</p>
+      <p>Infrastructure: <code>VPC + EC2 + RDS MySQL + S3</code></p>
+      <p>Terraform state is stored in S3 with DynamoDB locking.</p>
+    </main>
+  </body>
+</html>
+
