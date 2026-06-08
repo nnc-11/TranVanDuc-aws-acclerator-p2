@@ -3,15 +3,15 @@
 
 ## Đề bài
 
-lab: Deploy a Web App on AWS
-Architecture: VPC + public/Private Subnets + EC2 + RDS + S3
-Step 1: Create VPC module with public & private subnets
-Step 2: Deploy EC2 instance in public subnet (web server)
-Step 3: Deploy RDS MySQL in private subnet
-Step 4: Create S3 bucket for static asset
-Step 5: Configure security groups to allow only required traffic 
-* All state stored in S3 backend with DynamoDB locking
-Deadline: 23h59 08/06/2026
+lab: Deploy a Web App on AWS <br>
+Architecture: VPC + public/Private Subnets + EC2 + RDS + S3 <br>
+Step 1: Create VPC module with public & private subnets <br>
+Step 2: Deploy EC2 instance in public subnet (web server) <br>
+Step 3: Deploy RDS MySQL in private subnet<br>
+Step 4: Create S3 bucket for static asset<br>
+Step 5: Configure security groups to allow only required traffic <br>
+* All state stored in S3 backend with DynamoDB locking<br>
+Deadline: 23h59 08/06/2026<br>
 
 ## Mục tiêu
 
