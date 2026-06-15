@@ -17,7 +17,4 @@ Cấu trúc thư mục:
 - 06-gatekeeper.md
 - 07-validatingadmissionpolicy.md
 - 08-audit-vs-enforce.md
-- 09-exercises.md
-- 10-resources.md
 
-Lưu ý: giữ nguyên các thuật ngữ tiếng Anh khi cần (ví dụ: `Role`, `ConstraintTemplate`).
