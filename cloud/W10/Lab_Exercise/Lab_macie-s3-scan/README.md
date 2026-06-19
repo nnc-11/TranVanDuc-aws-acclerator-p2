@@ -2,7 +2,7 @@
 
 ## Đề Bài
 
-![kientruc](/picture/DeBai.jfif)<br>
+![kientruc](picture/DeBai.jfif)<br>
 
 ## Mục Tiêu
 - Upload file lên S3
@@ -16,25 +16,25 @@
 - bucket
 - file sample.txt trong bucket
 
-![s3 bucket](/picture/E1.png)<br>
+![s3 bucket](picture/E1.png)<br>
 
 ### 2. Macie enabled
 - Macie overview
 
-![macie](/picture/E2.png)<br>
+![macie](picture/E2.png)<br>
 
 ### 3. Macie job
 
-![macie job ](/picture/E3.png)<br>
+![macie job ](picture/E3.png)<br>
 
-![macie](/picture/E6.png)<br>
+![macie](picture/E6.png)<br>
 
 ### 4. SNS Subscription
 
-![macie](/picture/E7.png)<br>
+![macie](picture/E7.png)<br>
 
 ### 5. SNS Email 
 
-![SNS](/picture/E8.png)<br>
+![SNS](picture/E8.png)<br>
 
 
