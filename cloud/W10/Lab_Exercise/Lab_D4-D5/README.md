@@ -191,7 +191,7 @@ OutPut:
 ## Technical limitaion + mitigation plan
 ### Hạn chế môi trường triển khai
 
-Trong quá trình thực hiện lab, hệ thống Kubernetes được triển khai trên môi trường local (máy cá nhân) với giới hạn về tài nguyên (RAM/CPU).
+Trong quá trình thực hiện lab, hệ thống Kubernetes được triển khai trên môi trường local (máy cá nhân) với giới hạn về tài nguyên (RAM/CPU). Máy locla hiện tại: 8G ram cho máy. Lab dùng 4G.
 
 Do đó:
 - Việc chạy đồng thời ArgoCD, Gatekeeper và các workload test có thể gây thiếu bộ nhớ
