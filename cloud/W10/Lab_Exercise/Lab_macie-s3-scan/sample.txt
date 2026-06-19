@@ -1,0 +1,5 @@
+Name: Nguyen Van A
+Email: test.user@example.com
+SSN: 123-45-6789
+CreditCard: 4111-1111-1111-1111
+Passport: B1234567

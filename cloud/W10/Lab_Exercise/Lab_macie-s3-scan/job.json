@@ -1,0 +1,13 @@
+{
+  "clientToken": "9d91e406-89a8-4746-929f-093f201fadbd",
+  "jobType": "ONE_TIME",
+  "name": "macie-s3-scan-job",
+  "s3JobDefinition": {
+    "bucketDefinitions": [
+      {
+        "accountId": "783459135560",
+        "buckets": ["macie-lab-duc-1781860361"]
+      }
+    ]
+  }
+}
